@@ -1,47 +1,56 @@
-import Image from "next/image";
-import Link from "next/link";
-import { ArrowRight, HeartPulse, Leaf, MessageCircle, ShieldCheck } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { ProductCard } from "@/components/product-card";
-import { featuredProducts } from "@/lib/products";
-import { brand, whatsappUrl } from "@/lib/constants";
-import { SectionHeading } from "@/components/section-heading";
-import { TrustBadges } from "@/components/trust-badges";
-import { FaqList, commonFaqs } from "@/components/faq-list";
-import { WhatsAppCta } from "@/components/whatsapp-cta";
-import { WomensHealthJourney } from "@/components/womens-health-journey";
+import Image from 'next/image';
+import Link from 'next/link';
+import {
+  ArrowRight,
+  HeartPulse,
+  Leaf,
+  MessageCircle,
+  ShieldCheck,
+} from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { ProductCard } from '@/components/product-card';
+import { featuredProducts } from '@/lib/products';
+import { brand, whatsappUrl } from '@/lib/constants';
+import { SectionHeading } from '@/components/section-heading';
+import { TrustBadges } from '@/components/trust-badges';
+import { FaqList, commonFaqs } from '@/components/faq-list';
+import { WhatsAppCta } from '@/components/whatsapp-cta';
+import { WomensHealthJourney } from '@/components/womens-health-journey';
 
 const benefits = [
   {
     icon: Leaf,
-    title: "Rooted in classical Ayurveda",
-    copy: "Formulations inspired by traditional herbs, balanced with practical modern wellness routines."
+    title: 'Rooted in classical Ayurveda',
+    copy: 'Formulations inspired by traditional herbs, balanced with practical modern wellness routines.',
   },
   {
     icon: HeartPulse,
-    title: "Guidance before purchase",
-    copy: "WhatsApp-first consultation helps customers choose products responsibly."
+    title: 'Guidance before purchase',
+    copy: 'WhatsApp-first consultation helps customers choose products responsibly.',
   },
   {
     icon: ShieldCheck,
-    title: "Trust-led D2C experience",
-    copy: "Secure packaging, COD availability, and transparent product education."
-  }
+    title: 'Trust-led D2C experience',
+    copy: 'Secure packaging, COD availability, and transparent product education.',
+  },
 ];
 
 const testimonials = [
   {
-    quote: "The consultation was clear and gentle. I understood what to take and why.",
-    name: "Priya, Gurugram"
+    quote:
+      'The consultation was clear and gentle. I understood what to take and why.',
+    name: 'Priya, Gurugram',
   },
   {
-    quote: "Premium packaging, quick responses, and a product range that feels thoughtfully built.",
-    name: "Rohan, Mumbai"
+    quote:
+      'Premium packaging, quick responses, and a product range that feels thoughtfully built.',
+    name: 'Rohan, Mumbai',
   },
   {
-    quote: "I liked that the team asked about my routine before recommending anything.",
-    name: "Meera, Ahmedabad"
-  }
+    quote:
+      'I liked that the team asked about my routine before recommending anything.',
+    name: 'Meera, Ahmedabad',
+  },
 ];
 
 export default function HomePage() {
@@ -56,11 +65,18 @@ export default function HomePage() {
               Rooted in Ayurveda. Designed for Modern Wellness.
             </h1>
             <p className="mt-6 max-w-xl text-base leading-7 text-muted-foreground md:text-lg">
-              Premium Ayurvedic wellness formulations crafted with traditional knowledge and modern care.
+              Premium Ayurvedic wellness formulations crafted with traditional
+              knowledge and modern care.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild variant="whatsapp" size="lg">
-                <a href={whatsappUrl("Hi, I want to consult about SRAS Veda products.")} target="_blank" rel="noreferrer">
+                <a
+                  href={whatsappUrl(
+                    'Hi, I want to consult about SRAS Veda products.',
+                  )}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <MessageCircle className="h-5 w-5" />
                   Consult on WhatsApp
                 </a>
@@ -73,11 +89,16 @@ export default function HomePage() {
               </Button>
             </div>
             <div className="mt-8 grid grid-cols-3 gap-3 text-sm">
-              {["COD available", "Natural ingredients", "Secure packaging"].map((item) => (
-                <div key={item} className="rounded-xl border border-border/80 bg-card/70 p-3 font-semibold shadow-line backdrop-blur">
-                  {item}
-                </div>
-              ))}
+              {['COD available', 'Natural ingredients', 'Secure packaging'].map(
+                (item) => (
+                  <div
+                    key={item}
+                    className="rounded-xl border border-border/80 bg-card/70 p-3 font-semibold shadow-line backdrop-blur"
+                  >
+                    {item}
+                  </div>
+                ),
+              )}
             </div>
           </div>
           <div className="relative">
@@ -103,8 +124,10 @@ export default function HomePage() {
                   />
                 </span>
                 <div>
-                  <p className="text-sm font-bold">Manufactured by</p>
-                  <p className="text-sm text-muted-foreground">{brand.manufacturer}</p>
+                  <p className="text-sm font-bold">SRAS Veda By</p>
+                  <p className="text-sm text-muted-foreground">
+                    {brand.manufacturer}
+                  </p>
                 </div>
               </div>
             </div>
@@ -138,7 +161,8 @@ export default function HomePage() {
                 Heritage-backed care, presented for the modern Indian home.
               </h2>
               <p className="mt-5 leading-7 text-muted-foreground">
-                SRAS Veda brings together traditional formulation wisdom, clear product education, and a consultation-first purchase journey.
+                SRAS Veda brings together traditional formulation wisdom, clear
+                product education, and a consultation-first purchase journey.
               </p>
             </div>
             <TrustBadges />
@@ -148,15 +172,25 @@ export default function HomePage() {
 
       <section className="section">
         <div className="container">
-          <SectionHeading eyebrow="Benefits" title="Built for trust before transaction" />
+          <SectionHeading
+            eyebrow="Benefits"
+            title="Built for trust before transaction"
+          />
           <div className="mt-10 grid gap-5 md:grid-cols-3">
             {benefits.map((benefit) => (
-              <div key={benefit.title} className="rounded-xl border border-border bg-card p-6 shadow-line">
+              <div
+                key={benefit.title}
+                className="rounded-xl border border-border bg-card p-6 shadow-line"
+              >
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-secondary text-primary">
                   <benefit.icon className="h-6 w-6" />
                 </span>
-                <h3 className="mt-5 font-serif text-2xl font-bold">{benefit.title}</h3>
-                <p className="mt-3 text-sm leading-6 text-muted-foreground">{benefit.copy}</p>
+                <h3 className="mt-5 font-serif text-2xl font-bold">
+                  {benefit.title}
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-muted-foreground">
+                  {benefit.copy}
+                </p>
               </div>
             ))}
           </div>
@@ -165,12 +199,22 @@ export default function HomePage() {
 
       <section className="section bg-card">
         <div className="container">
-          <SectionHeading eyebrow="Testimonials" title="Consultation-led wellness journeys" />
+          <SectionHeading
+            eyebrow="Testimonials"
+            title="Consultation-led wellness journeys"
+          />
           <div className="mt-10 grid gap-5 md:grid-cols-3">
             {testimonials.map((testimonial) => (
-              <figure key={testimonial.name} className="rounded-xl border border-border bg-background p-6">
-                <blockquote className="text-base leading-7">&quot;{testimonial.quote}&quot;</blockquote>
-                <figcaption className="mt-5 text-sm font-semibold text-muted-foreground">{testimonial.name}</figcaption>
+              <figure
+                key={testimonial.name}
+                className="rounded-xl border border-border bg-background p-6"
+              >
+                <blockquote className="text-base leading-7">
+                  &quot;{testimonial.quote}&quot;
+                </blockquote>
+                <figcaption className="mt-5 text-sm font-semibold text-muted-foreground">
+                  {testimonial.name}
+                </figcaption>
               </figure>
             ))}
           </div>
@@ -181,7 +225,9 @@ export default function HomePage() {
         <div className="container grid gap-10 md:grid-cols-[0.8fr_1.2fr]">
           <div>
             <p className="eyebrow">FAQ</p>
-            <h2 className="mt-3 font-serif text-4xl font-bold">Questions before you order?</h2>
+            <h2 className="mt-3 font-serif text-4xl font-bold">
+              Questions before you order?
+            </h2>
             <Button asChild variant="outline" className="mt-6">
               <Link href="/faq">View all FAQs</Link>
             </Button>
