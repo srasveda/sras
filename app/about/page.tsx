@@ -29,8 +29,8 @@ export default function AboutPage() {
           </div>
           <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-border">
             <Image
-              src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=1200&q=85"
-              alt="Ayurvedic ingredients and wellness preparation"
+              src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=85"
+              alt="Ayurvedic herbs and natural wellness ingredients arranged on a table"
               fill
               sizes="(min-width: 768px) 50vw, 100vw"
               className="object-cover"

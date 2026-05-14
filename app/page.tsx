@@ -72,7 +72,7 @@ export default function HomePage() {
               <Button asChild variant="whatsapp" size="lg">
                 <a
                   href={whatsappUrl(
-                    'Hi, I want to consult about SRAS Veda products.',
+                    'Hi, I want to consult about SRAS Veda products.'
                   )}
                   target="_blank"
                   rel="noreferrer"
@@ -89,16 +89,18 @@ export default function HomePage() {
               </Button>
             </div>
             <div className="mt-8 grid grid-cols-3 gap-3 text-sm">
-              {['COD available', 'Natural ingredients', 'Secure packaging'].map(
-                (item) => (
-                  <div
-                    key={item}
-                    className="rounded-xl border border-border/80 bg-card/70 p-3 font-semibold shadow-line backdrop-blur"
-                  >
-                    {item}
-                  </div>
-                ),
-              )}
+              {[
+                'Founded in 1998',
+                'Natural ingredients',
+                'Secure packaging',
+              ].map((item) => (
+                <div
+                  key={item}
+                  className="rounded-xl border border-border/80 bg-card/70 p-3 font-semibold shadow-line backdrop-blur"
+                >
+                  {item}
+                </div>
+              ))}
             </div>
           </div>
           <div className="relative">

@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
-import { WomensHealthJourney } from "@/components/womens-health-journey";
-import { WhatsAppCta } from "@/components/whatsapp-cta";
+import type { Metadata } from 'next';
+import { WomensHealthJourney } from '@/components/womens-health-journey';
+import { WhatsAppCta } from '@/components/whatsapp-cta';
 
 export const metadata: Metadata = {
   title: "Women's Health Range",
   description:
-    "Explore the SRAS Veda women's health campaign for PCOS, hormonal imbalance, fertility support, uterine wellness, and guided WhatsApp consultation."
+    "Explore the SRAS Veda women's health campaign for PCOS, hormonal imbalance, fertility support, uterine wellness, and guided WhatsApp consultation.",
 };
 
 export default function WomensHealthPage() {

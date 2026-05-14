@@ -9,8 +9,8 @@ import {
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { getProduct, womensHealthHeroProducts } from '@/lib/products';
-import { brand, whatsappUrl } from '@/lib/constants';
+import { getProduct } from '@/lib/products';
+import { whatsappUrl } from '@/lib/constants';
 
 const trustPoints = [
   {
@@ -108,13 +108,13 @@ export function WomensHealthJourney({
       <div className="container">
         <div className="grid gap-10 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
           <div>
-            <p className="eyebrow">Women's health campaign</p>
+            <p className="eyebrow">Women&apos;s health campaign</p>
             <h2 className="mt-3 font-serif text-4xl font-bold leading-tight md:text-5xl">
               Managing PCOS, hormonal imbalance and infertility with guided
               Ayurvedic support.
             </h2>
             <p className="mt-5 text-base leading-7 text-muted-foreground">
-              Inspired by the SRAS women's health range, this journey helps
+              Inspired by the SRAS women&apos;s health range, this journey helps
               customers start with their concern, understand the wellness focus,
               and consult before choosing a formulation.
             </p>
@@ -122,7 +122,7 @@ export function WomensHealthJourney({
               <Button asChild variant="whatsapp" size="lg">
                 <a
                   href={whatsappUrl(
-                    'Hi, I want guidance for PCOS, hormonal imbalance or fertility support.',
+                    'Hi, I want guidance for PCOS, hormonal imbalance or fertility support.'
                   )}
                   target="_blank"
                   rel="noreferrer"
@@ -175,7 +175,7 @@ export function WomensHealthJourney({
                     Campaign range
                   </p>
                   <h3 className="font-serif text-3xl font-bold">
-                    SRAS Women's Health Range
+                    SRAS Women&apos;s Health Range
                   </h3>
                 </div>
               </div>
@@ -261,7 +261,7 @@ export function WomensHealthJourney({
                   <Button asChild variant="whatsapp" size="sm">
                     <a
                       href={whatsappUrl(
-                        `Hi, I want guidance for ${product.name} in the women's health range.`,
+                        `Hi, I want guidance for ${product.name} in the women's health range.`
                       )}
                       target="_blank"
                       rel="noreferrer"

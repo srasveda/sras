@@ -1,13 +1,14 @@
-import type { Metadata } from "next";
-import { ProductCard } from "@/components/product-card";
-import { SectionHeading } from "@/components/section-heading";
-import { WhatsAppCta } from "@/components/whatsapp-cta";
-import { categories, products } from "@/lib/products";
-import { WomensHealthJourney } from "@/components/womens-health-journey";
+import type { Metadata } from 'next';
+import { ProductCard } from '@/components/product-card';
+import { SectionHeading } from '@/components/section-heading';
+import { WhatsAppCta } from '@/components/whatsapp-cta';
+import { categories, products } from '@/lib/products';
+import { WomensHealthJourney } from '@/components/womens-health-journey';
 
 export const metadata: Metadata = {
-  title: "Products",
-  description: "Explore SRAS Veda Ayurvedic wellness products for women's wellness, fertility support, weight management, general wellness, and men's vitality."
+  title: 'Products',
+  description:
+    "Explore SRAS Veda Ayurvedic wellness products for women's wellness, fertility support, weight management, general wellness, and men's vitality.",
 };
 
 export default function ProductsPage() {
@@ -22,7 +23,10 @@ export default function ProductsPage() {
           />
           <div className="mt-8 flex flex-wrap justify-center gap-2">
             {categories.map((category) => (
-              <span key={category} className="rounded-full border border-border bg-background px-4 py-2 text-sm font-semibold text-muted-foreground">
+              <span
+                key={category}
+                className="rounded-full border border-border bg-background px-4 py-2 text-sm font-semibold text-muted-foreground"
+              >
                 {category}
               </span>
             ))}

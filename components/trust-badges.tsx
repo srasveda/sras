@@ -3,7 +3,6 @@ import {
   Leaf,
   PackageCheck,
   ShieldCheck,
-  Truck,
 } from 'lucide-react';
 import { brand } from '@/lib/constants';
 
@@ -11,7 +10,7 @@ const items = [
   { icon: Leaf, label: 'Natural ingredients' },
   { icon: ShieldCheck, label: `By ${brand.manufacturer}` },
   { icon: PackageCheck, label: 'Secure packaging' },
-  { icon: Truck, label: 'COD available' },
+  { icon: ShieldCheck, label: 'Founded in 1998' },
   { icon: CheckCircle2, label: 'Traditional formulations' },
 ];
 
