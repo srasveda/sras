@@ -86,10 +86,15 @@ export function Footer() {
               <MapPin className="h-4 w-4" />
               {brand.address}
             </span>
-            <span className="flex items-center gap-2">
+            <a
+              href="https://www.instagram.com/srasveda"
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-2 text-stone-300 hover:text-white"
+            >
               <Instagram className="h-4 w-4" />
               @srasveda
-            </span>
+            </a>
           </div>
         </div>
       </div>
