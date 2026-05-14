@@ -50,7 +50,7 @@ export const products: Product[] = [
     usage: '5-10 ml twice a day',
     image: '/images/products/ayur-plex.webp',
     originalImage: '/images/products/AyurPlex.jpg',
-    tone: 'bg-lime-50',
+    tone: 'bg-emerald-50',
     faqs: [
       {
         question: 'Who is Ayur Plex for?',
@@ -138,7 +138,7 @@ export const products: Product[] = [
     usage: '1 Tablets twice a day',
     image: '/images/products/calci-n.webp',
     originalImage: '/images/products/calciN.jpg',
-    tone: 'bg-lime-50',
+    tone: 'bg-emerald-50',
     faqs: [
       {
         question: 'Who is Calci-N for?',
@@ -182,7 +182,7 @@ export const products: Product[] = [
     usage: '10 to 15 drops twice a day',
     image: '/images/products/conceive-n-drops.webp',
     originalImage: '/images/products/concieveN1.jpg',
-    tone: 'bg-amber-50',
+    tone: 'bg-rose-50',
     faqs: [
       {
         question: 'Who is Conceive-N Drops for?',
@@ -356,7 +356,7 @@ export const products: Product[] = [
     usage: '1 Tablet twice a day',
     image: '/images/products/ifa-m.webp',
     originalImage: '/images/products/ifaM1.jpg',
-    tone: 'bg-lime-50',
+    tone: 'bg-emerald-50',
     faqs: [
       {
         question: 'Who is Ifa-M for?',
@@ -404,7 +404,7 @@ export const products: Product[] = [
     usage: '10-15 Drops twice a day with hot water',
     image: '/images/products/kof-n.webp',
     originalImage: '/images/products/kofNDrops1.jpg',
-    tone: 'bg-lime-50',
+    tone: 'bg-emerald-50',
     faqs: [
       {
         question: 'Who is Kof-N for?',
@@ -543,7 +543,7 @@ export const products: Product[] = [
     usage: '2 Tablets twice a day',
     image: '/images/products/oligocure.webp',
     originalImage: '/images/products/Oligocure.jpg',
-    tone: 'bg-amber-50',
+    tone: 'bg-rose-50',
     faqs: [
       {
         question: 'Who is Oligocure for?',
@@ -675,7 +675,7 @@ export const products: Product[] = [
     usage: '10 to 15 drops twice a day',
     image: '/images/products/sheba-drops.webp',
     originalImage: '/images/products/shebaDrops7.jpg',
-    tone: 'bg-amber-50',
+    tone: 'bg-rose-50',
     faqs: [
       {
         question: 'Who is Sheba Drops for?',
@@ -815,7 +815,7 @@ export const products: Product[] = [
     usage: '1 or 2 Tablets a day or as directed by the Physician',
     image: '/images/products/sudha.webp',
     originalImage: '/images/products/sudha.jpg',
-    tone: 'bg-amber-50',
+    tone: 'bg-rose-50',
     faqs: [
       {
         question: 'Who is Sudha for?',
@@ -861,7 +861,7 @@ export const products: Product[] = [
     usage: '2 Capsules twice a day',
     image: '/images/products/sperm-forte-capsules.webp',
     originalImage: '/images/products/sperm-fort.jpg',
-    tone: 'bg-amber-50',
+    tone: 'bg-rose-50',
     faqs: [
       {
         question: 'Who is Sperm Forte Capsules for?',
@@ -906,7 +906,7 @@ export const products: Product[] = [
     image:
       'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1000&q=80',
     originalImage: '/images/products/spermFortePowder1.jpg',
-    tone: 'bg-amber-50',
+    tone: 'bg-rose-50',
     faqs: [
       {
         question: 'Who is Sperm Forte Powder for?',
@@ -1076,10 +1076,10 @@ export const categories = Array.from(
 );
 
 export const featuredProducts = [
-  'conceive-n-drops',
-  'oligocure',
-  'sheba-drops',
-  'mayoma',
+  'd-coardial-tablets',
+  'ayur-plex',
+  'sthulta-hari',
+  'u-liv',
 ]
   .map((slug) => getProduct(slug))
   .filter((product): product is Product => Boolean(product));

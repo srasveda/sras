@@ -30,26 +30,52 @@ const benefits = [
   },
   {
     icon: ShieldCheck,
-    title: 'Trust-led D2C experience',
-    copy: 'Secure packaging, COD availability, and transparent product education.',
+    title: 'Organic Ingredients',
+    copy: 'Manufactured in GMP-certified facility',
   },
 ];
 
 const testimonials = [
   {
     quote:
-      'The consultation was clear and gentle. I understood what to take and why.',
-    name: 'Priya, Gurugram',
+      'Conceive-N was recommended to me as part of an Ayurvedic wellness routine. I appreciated the personalized guidance and holistic approach toward reproductive wellness.',
+
+    name: 'Sneha, Gurugram',
   },
+
   {
     quote:
-      'Premium packaging, quick responses, and a product range that feels thoughtfully built.',
-    name: 'Rohan, Mumbai',
+      'Sperm Forte Capsules helped me feel more energetic and balanced in my daily routine. The ingredients and Ayurvedic formulation gave me confidence in the product.',
+
+    name: 'Aman, Chandigarh',
   },
+
   {
     quote:
-      'I liked that the team asked about my routine before recommending anything.',
-    name: 'Meera, Ahmedabad',
+      'Leucona felt gentle and supportive during my wellness journey. I also liked how responsive the SRAS Veda team was on WhatsApp.',
+
+    name: 'Priya, Ahmedabad',
+  },
+
+  {
+    quote:
+      'Sthulta Hari became part of my daily wellness and fitness routine. The formulation felt natural and aligned well with my lifestyle changes.',
+
+    name: 'Rohit, Mumbai',
+  },
+
+  {
+    quote:
+      'Kof-N worked well as part of my seasonal wellness support routine. The herbal formulation felt soothing and easy to include in daily use.',
+
+    name: 'Nitin, Jaipur',
+  },
+
+  {
+    quote:
+      'The consultation process before recommending Sheba Tablets made the experience feel trustworthy and personalized rather than just another online purchase.',
+
+    name: 'Meera, Delhi',
   },
 ];
 
@@ -143,8 +169,8 @@ export default function HomePage() {
         <div className="container">
           <SectionHeading
             eyebrow="Hero campaign products"
-            title="Four formulations, one guided women's health journey"
-            copy="Explore Conceive-N, Oligocure, Sheba, and Mayoma, then consult on WhatsApp for responsible product guidance."
+            title="Four formulations across the SRAS wellness range"
+            copy="Explore one product from Women's Wellness, General Wellness, Weight Management, and Men's Vitality, then consult on WhatsApp for responsible product guidance."
           />
           <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {featuredProducts.map((product) => (
