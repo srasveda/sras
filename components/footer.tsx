@@ -20,7 +20,7 @@ export function Footer() {
               />
             </div>
             <div>
-              <div className="font-serif text-3xl font-bold">{brand.name}</div>
+              <div className="text-3xl font-bold">{brand.name}</div>
               <div className="text-xs font-semibold uppercase tracking-[0.16em] text-stone-400">
                 Ayurvedic wellness
               </div>
