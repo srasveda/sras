@@ -8,7 +8,7 @@ import { WomensHealthJourney } from '@/components/womens-health-journey';
 export const metadata: Metadata = {
   title: 'Products',
   description:
-    "Explore SRAS Veda Ayurvedic wellness products for women's wellness, fertility support, weight management, general wellness, and men's vitality.",
+    "Explore Srasveda Ayurvedic wellness products for women's wellness, fertility support, weight management, general wellness, and men's vitality.",
 };
 
 export default function ProductsPage() {

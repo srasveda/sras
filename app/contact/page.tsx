@@ -7,7 +7,7 @@ import { brand, whatsappUrl } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    'Contact SRAS Veda on WhatsApp for Ayurvedic wellness consultation and product ordering.',
+    'Contact Srasveda on WhatsApp for Ayurvedic wellness consultation and product ordering.',
 };
 
 export default function ContactPage() {
@@ -29,7 +29,7 @@ export default function ContactPage() {
             <Button asChild variant="whatsapp" size="lg" className="mt-6">
               <a
                 href={whatsappUrl(
-                  'Hi, I want to consult and order SRAS Veda products.'
+                  'Hi, I want to consult and order Srasveda products.'
                 )}
                 target="_blank"
                 rel="noreferrer"

@@ -32,7 +32,7 @@ export function Footer() {
           </p>
           <Button asChild variant="secondary" className="mt-5">
             <a
-              href={whatsappUrl('Hi, I want to know more about SRAS Veda.')}
+              href={whatsappUrl('Hi, I want to know more about Srasveda.')}
               target="_blank"
               rel="noreferrer"
             >

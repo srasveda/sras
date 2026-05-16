@@ -8,7 +8,7 @@ import { brand } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Learn about SRAS Veda, a premium Ayurvedic wellness brand by Shri Ram Ayurvedshala.',
+    'Learn about Srasveda, a premium Ayurvedic wellness brand by Shri Ram Ayurvedshala.',
 };
 
 export default function AboutPage() {
@@ -17,12 +17,12 @@ export default function AboutPage() {
       <section className="section bg-card">
         <div className="container grid gap-10 md:grid-cols-2 md:items-center">
           <div>
-            <p className="eyebrow">About SRAS Veda</p>
+            <p className="eyebrow">About Srasveda</p>
             <h1 className="mt-3 font-serif text-5xl font-bold leading-tight">
               Premium Ayurveda for thoughtful modern wellness.
             </h1>
             <p className="mt-5 text-lg leading-8 text-muted-foreground">
-              SRAS Veda is rooted in traditional Ayurvedic knowledge and
+              Srasveda is rooted in traditional Ayurvedic knowledge and
               presented with the clarity, trust, and convenience expected from a
               modern D2C wellness brand.
             </p>

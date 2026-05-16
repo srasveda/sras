@@ -5,7 +5,7 @@ import { WhatsAppCta } from '@/components/whatsapp-cta';
 export const metadata: Metadata = {
   title: "Women's Health Range",
   description:
-    "Explore the SRAS Veda women's health campaign for PCOS, hormonal imbalance, fertility support, uterine wellness, and guided WhatsApp consultation.",
+    "Explore the Srasveda women's health campaign for PCOS, hormonal imbalance, fertility support, uterine wellness, and guided WhatsApp consultation.",
 };
 
 export default function WomensHealthPage() {

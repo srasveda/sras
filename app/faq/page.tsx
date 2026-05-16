@@ -6,13 +6,13 @@ import { WhatsAppCta } from '@/components/whatsapp-cta';
 export const metadata: Metadata = {
   title: 'FAQ',
   description:
-    'Answers to common questions about SRAS Veda Ayurvedic wellness products, WhatsApp ordering, COD, and consultation.',
+    'Answers to common questions about Srasveda Ayurvedic wellness products, WhatsApp ordering, COD, and consultation.',
 };
 
 const faqs = [
   ...commonFaqs,
   {
-    question: 'Why does SRAS Veda use WhatsApp instead of a cart?',
+    question: 'Why does Srasveda use WhatsApp instead of a cart?',
     answer:
       'Ayurvedic wellness choices often need context. WhatsApp lets customers ask questions, confirm suitability, and order with confidence.',
   },

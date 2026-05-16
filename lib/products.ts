@@ -67,7 +67,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -114,7 +114,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -155,7 +155,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -199,7 +199,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -243,7 +243,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -286,7 +286,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -330,7 +330,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -373,7 +373,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -421,7 +421,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -468,7 +468,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -517,7 +517,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -560,7 +560,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -601,7 +601,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -645,7 +645,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -692,7 +692,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -739,7 +739,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -783,7 +783,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -832,7 +832,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -878,7 +878,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -923,7 +923,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -971,7 +971,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -1018,7 +1018,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },
@@ -1065,7 +1065,7 @@ export const products: Product[] = [
       {
         quote:
           'The WhatsApp consultation made it easier to understand the right product and usage routine.',
-        name: 'Verified SRAS Veda customer',
+        name: 'Verified Srasveda customer',
       },
     ],
   },

@@ -52,7 +52,7 @@ const testimonials = [
 
   {
     quote:
-      'Leucona felt gentle and supportive during my wellness journey. I also liked how responsive the SRAS Veda team was on WhatsApp.',
+      'Leucona felt gentle and supportive during my wellness journey. I also liked how responsive the Srasveda team was on WhatsApp.',
 
     name: 'Priya, Ahmedabad',
   },
@@ -98,7 +98,7 @@ export default function HomePage() {
               <Button asChild variant="whatsapp" size="lg">
                 <a
                   href={whatsappUrl(
-                    'Hi, I want to consult about SRAS Veda products.'
+                    'Hi, I want to consult about Srasveda products.'
                   )}
                   target="_blank"
                   rel="noreferrer"
@@ -152,7 +152,7 @@ export default function HomePage() {
                   />
                 </span>
                 <div>
-                  <p className="text-sm font-bold">SRAS Veda By</p>
+                  <p className="text-sm font-bold">Srasveda By</p>
                   <p className="text-sm text-muted-foreground">
                     {brand.manufacturer}
                   </p>
@@ -189,7 +189,7 @@ export default function HomePage() {
                 Heritage-backed care, presented for the modern Indian home.
               </h2>
               <p className="mt-5 leading-7 text-muted-foreground">
-                SRAS Veda brings together traditional formulation wisdom, clear
+                Srasveda brings together traditional formulation wisdom, clear
                 product education, and a consultation-first purchase journey.
               </p>
             </div>

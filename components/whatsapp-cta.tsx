@@ -5,7 +5,7 @@ import { whatsappUrl } from '@/lib/constants';
 export function WhatsAppCta({
   title = 'Need help choosing the right Ayurvedic support?',
   copy = 'Share your wellness goal with us and get guided product recommendations on WhatsApp.',
-  message = 'Hi, I want help choosing the right SRAS Veda product.',
+  message = 'Hi, I want help choosing the right Srasveda product.',
 }: {
   title?: string;
   copy?: string;

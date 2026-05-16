@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms & Conditions',
   description:
-    'SRAS Veda terms and conditions for Ayurvedic wellness product consultation and WhatsApp ordering.',
+    'Srasveda terms and conditions for Ayurvedic wellness product consultation and WhatsApp ordering.',
 };
 
 export default function TermsPage() {
@@ -16,7 +16,7 @@ export default function TermsPage() {
         </h1>
         <div className="mt-8 grid gap-6 text-sm leading-7 text-muted-foreground">
           <p>
-            By using the SRAS Veda website or ordering through WhatsApp, you
+            By using the Srasveda website or ordering through WhatsApp, you
             agree to use the information and products responsibly and provide
             accurate details during consultation and ordering.
           </p>
@@ -38,7 +38,7 @@ export default function TermsPage() {
             purchase.
           </p>
           <p>
-            SRAS Veda reserves the right to update website content, product
+            Srasveda reserves the right to update website content, product
             details, and these terms as needed.
           </p>
         </div>

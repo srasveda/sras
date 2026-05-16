@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: product.name,
     description: product.shortDescription,
     openGraph: {
-      title: `${product.name} | SRAS Veda`,
+      title: `${product.name} | Srasveda`,
       description: product.shortDescription,
       images: [{ url: product.image }],
     },

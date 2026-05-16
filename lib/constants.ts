@@ -1,5 +1,5 @@
 export const brand = {
-  name: 'SRAS Veda',
+  name: 'Srasveda',
   manufacturer: 'Shri Ram Ayurvedshala',
   whatsappNumber: '919255427911',
   email: 'srasveda@gmail.com',

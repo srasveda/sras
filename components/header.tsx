@@ -16,7 +16,7 @@ export function Header() {
         <Link
           href="/"
           className="flex items-center gap-3"
-          aria-label="SRAS Veda home"
+          aria-label="Srasveda home"
         >
           <span className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full bg-primary shadow-line">
             <Image
@@ -57,7 +57,7 @@ export function Header() {
           <Button asChild variant="whatsapp" size="sm">
             <a
               href={whatsappUrl(
-                'Hi, I want to consult about SRAS Veda products.'
+                'Hi, I want to consult about Srasveda products.'
               )}
               target="_blank"
               rel="noreferrer"
@@ -97,7 +97,7 @@ export function Header() {
             <Button asChild variant="whatsapp" className="mt-2">
               <a
                 href={whatsappUrl(
-                  'Hi, I want to consult about SRAS Veda products.'
+                  'Hi, I want to consult about Srasveda products.'
                 )}
                 target="_blank"
                 rel="noreferrer"

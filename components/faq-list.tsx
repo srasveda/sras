@@ -7,7 +7,7 @@ import {
 
 export const commonFaqs = [
   {
-    question: 'How do I order SRAS Veda products?',
+    question: 'How do I order Srasveda products?',
     answer:
       'Tap any WhatsApp CTA, share the product you are interested in, and our team will guide consultation, availability, payment, and dispatch.',
   },
@@ -19,7 +19,7 @@ export const commonFaqs = [
   {
     question: 'Are these products a replacement for medical treatment?',
     answer:
-      'No. SRAS Veda products are Ayurvedic wellness support and should not replace medical diagnosis, emergency care, or prescribed treatment.',
+      'No. Srasveda products are Ayurvedic wellness support and should not replace medical diagnosis, emergency care, or prescribed treatment.',
   },
   {
     question: 'Can I use products during pregnancy or while taking medicines?',

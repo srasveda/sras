@@ -4,7 +4,7 @@ import { brand } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Privacy Policy',
   description:
-    'SRAS Veda privacy policy for customer information, WhatsApp conversations, and order support.',
+    'Srasveda privacy policy for customer information, WhatsApp conversations, and order support.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -15,7 +15,7 @@ export default function PrivacyPolicyPage() {
         <h1 className="mt-3 font-serif text-5xl font-bold">Privacy Policy</h1>
         <div className="mt-8 grid gap-6 text-sm leading-7 text-muted-foreground">
           <p>
-            SRAS Veda collects information you voluntarily share through
+            Srasveda collects information you voluntarily share through
             WhatsApp, contact forms, calls, or order conversations, including
             name, phone number, address, product interest, and wellness context
             needed for consultation.
@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
           </p>
           <p>
             Wellness information shared by customers should be accurate and
-            complete. SRAS Veda products are wellness support and are not a
+            complete. Srasveda products are wellness support and are not a
             substitute for medical diagnosis or treatment.
           </p>
           <p>
