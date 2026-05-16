@@ -3,7 +3,7 @@ import { brand } from '@/lib/constants';
 
 const items = [
   { icon: Leaf, label: 'Natural ingredients' },
-  { icon: ShieldCheck, label: `Formulated by ${brand.manufacturer}` },
+  { icon: ShieldCheck, label: `Formulations by ${brand.manufacturer}` },
   { icon: PackageCheck, label: 'Ayush Certified' },
   { icon: ShieldCheck, label: 'Founded in 1998' },
   { icon: CheckCircle2, label: 'Traditional formulations' },
