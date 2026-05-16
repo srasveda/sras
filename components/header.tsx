@@ -29,7 +29,7 @@ export function Header() {
             />
           </span>
           <span>
-            <span className="block font-serif text-xl font-bold leading-5">
+            <span className="block font-display text-xl font-bold leading-5">
               {brand.name}
             </span>
             <span className="block text-[11px] font-medium text-muted-foreground">

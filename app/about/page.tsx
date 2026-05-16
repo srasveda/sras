@@ -42,7 +42,7 @@ export default function AboutPage() {
         <div className="container">
           <SectionHeading
             eyebrow="Our foundation"
-            title={`By ${brand.manufacturer}`}
+            title={`Formulations by ${brand.manufacturer}`}
             copy="Every customer journey begins with context. We believe Ayurvedic wellness should be guided, transparent, and grounded in responsible use."
           />
           <div className="mt-10">

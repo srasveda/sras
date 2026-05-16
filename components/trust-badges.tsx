@@ -1,15 +1,10 @@
-import {
-  CheckCircle2,
-  Leaf,
-  PackageCheck,
-  ShieldCheck,
-} from 'lucide-react';
+import { CheckCircle2, Leaf, PackageCheck, ShieldCheck } from 'lucide-react';
 import { brand } from '@/lib/constants';
 
 const items = [
   { icon: Leaf, label: 'Natural ingredients' },
-  { icon: ShieldCheck, label: `By ${brand.manufacturer}` },
-  { icon: PackageCheck, label: 'Secure packaging' },
+  { icon: ShieldCheck, label: `Formulated by ${brand.manufacturer}` },
+  { icon: PackageCheck, label: 'Ayush Certified' },
   { icon: ShieldCheck, label: 'Founded in 1998' },
   { icon: CheckCircle2, label: 'Traditional formulations' },
 ];

@@ -50,6 +50,7 @@ const config: Config = {
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         serif: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Poppins', 'ui-sans-serif', 'system-ui', 'sans-serif'],
       },
       boxShadow: {
         soft: '0 18px 70px rgba(62, 49, 30, 0.10)',

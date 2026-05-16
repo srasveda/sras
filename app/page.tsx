@@ -118,7 +118,7 @@ export default function HomePage() {
               {[
                 'Founded in 1998',
                 'Natural ingredients',
-                'Secure packaging',
+                'Ayush Certified',
               ].map((item) => (
                 <div
                   key={item}
